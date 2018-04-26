@@ -24,7 +24,7 @@ public class NumberUtils {
             roundedInD = Math.round((roundingInD+roundFacotrD) * (1.0/roundFacotrD)) / (1.0/roundFacotrD);
         }
         rootLogger.debug("roundedInD=" + roundedInD);
-        MathContext mathContext = new MathContext(3)
+        MathContext mathContext = new MathContext(3);
         roundedOut = new BigDecimal(roundedInD).round(mathContext);
 
         rootLogger.debug("roundedOut=" + roundedOut);
