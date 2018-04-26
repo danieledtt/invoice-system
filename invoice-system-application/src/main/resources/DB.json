@@ -1,0 +1,125 @@
+{
+  "categoryList":[
+    {
+      "idCategory":1,
+      "name":"Food",
+      "taxRate":0
+    },
+    {
+      "idCategory":2,
+      "name":"Book",
+      "taxRate":0
+    },
+    {
+      "idCategory":3,
+      "name":"Medical Product",
+      "taxRate":0
+    },
+    {
+      "idCategory":4,
+      "name":"Other",
+      "taxRate":0.1
+    }
+  ],
+  "productList":[
+    {
+      "idProduct":1,
+      "name":"book",
+      "netPrice":12.49,
+      "imported":false,
+      "category":{
+        "idCategory":2,
+        "name":"Book",
+        "taxRate":0
+      }
+    },
+    {
+      "idProduct":2,
+      "name":"music CD",
+      "netPrice":14.99,
+      "imported":false,
+      "category":{
+        "idCategory":4,
+        "name":"Other",
+        "taxRate":0.1
+      }
+    },
+    {
+      "idProduct":3,
+      "name":"chocolate bar",
+      "netPrice":0.85,
+      "imported":false,
+      "category":{
+        "idCategory":1,
+        "name":"Food",
+        "taxRate":0
+      }
+    },
+    {
+      "idProduct":4,
+      "name":"imported box of chocolates",
+      "netPrice":10.00,
+      "imported":true,
+      "category":{
+        "idCategory":1,
+        "name":"Food",
+        "taxRate":0
+      }
+    },
+    {
+      "idProduct":5,
+      "name":"imported bottle of perfume",
+      "netPrice":47.50,
+      "imported":true,
+      "category":{
+        "idCategory":4,
+        "name":"Other",
+        "taxRate":0.1
+      }
+    },
+    {
+      "idProduct":6,
+      "name":"imported bottle of perfume",
+      "netPrice":27.99,
+      "imported":true,
+      "category":{
+        "idCategory":4,
+        "name":"Other",
+        "taxRate":0.1
+      }
+    },
+    {
+      "idProduct":7,
+      "name":"bottle of perfume",
+      "netPrice":18.99,
+      "imported":false,
+      "category":{
+        "idCategory":4,
+        "name":"Other",
+        "taxRate":0.1
+      }
+    },
+    {
+      "idProduct":8,
+      "name":"packet of headache pills",
+      "netPrice":9.75,
+      "imported":false,
+      "category":{
+        "idCategory":3,
+        "name":"Medical Product",
+        "taxRate":0
+      }
+    },
+    {
+      "idProduct":9,
+      "name":"box of imported chocolates",
+      "netPrice":11.25,
+      "imported":true,
+      "category":{
+        "idCategory":1,
+        "name":"Food",
+        "taxRate":0
+      }
+    }
+  ]
+}
